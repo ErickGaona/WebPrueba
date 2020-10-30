@@ -1,1 +1,1 @@
-web: gonicorn webPrueba.wsgi
+web: gunicorn WebPrueba.wsgi
