@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import * 
+class TrabajoAdmin(admin.ModelAdmin):
+    fields=['nombre','paga']
 
-# Register your models here.
+
+    
+admin.site.register(Trabajos,TrabajoAdmin)
